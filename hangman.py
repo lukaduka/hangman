@@ -22,7 +22,7 @@ class HangmanGame:
 
         # Load and resize hangman images
         self.hangman_images = [
-            ImageTk.PhotoImage(Image.open(f"games/hangman-pictures/hangman{i}.png").resize((2024, 738)))
+            ImageTk.PhotoImage(Image.open(f"hangman-pictures/hangman{i}.png").resize((2024, 738)))
             for i in range(7)
         ]
 
